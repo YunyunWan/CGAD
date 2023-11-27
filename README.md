@@ -34,7 +34,7 @@ We provide the inj_cora dataset in the Dataset file, other datasets can be found
 - **CoLA** [^4] measures node abnormality based on the agreement between each node and its neighboring subgraph with a GNN-based encoder model. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
 - **ANEMONE** [^5] measures node abnormality based on the agreement of multiple scale instance pairs (patch and context levels).  Source code: [https://github.com/GRAND-Lab/ANEMONE](https://github.com/GRAND-Lab/ANEMONE)
 - **CONAD** [^6] enhances the graph based on pre-existing human knowledge and subsequently optimizes the encoder using a contrastive loss function. It then reconstructs the original network to flag anomalies. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
-**GRADATE** [^1] adopts random edge modifications as an augmentation strategy and introduces subgraph-subgraph instance pairs into the GAD problem. Source code: [https://github.com/FelixDJC/GRADATE]([https://github.com/pygod-team/pygod](https://github.com/FelixDJC/GRADATE)
+- **GRADATE** [^7] adopts random edge modifications as an augmentation strategy and introduces subgraph-subgraph instance pairs into the GAD problem. Source code: [https://github.com/FelixDJC/GRADATE]([https://github.com/pygod-team/pygod](https://github.com/FelixDJC/GRADATE)
 
 
 ## References:
