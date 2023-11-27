@@ -17,7 +17,7 @@ networkx == 2.6.3
 | Books   | book   | frequent co-purchases | Prices, ratings, number of reviews, etc | tagged books   |
 | Disney  | movie  | frequent co-purchases | Prices, ratings, number of reviews, etc | marked movies  |
 
-We provide the inj_cora dataset in the Dataset file, other datasets can be found here.
+Due to memory constraints, we have included the 'inj_cora' dataset in the designated folder as an example. For additional datasets, please feel free to contact us.
 
 ## Baselines
 | Algorithm | Year | Graph-based | Generative learning-based | Contrastive learning-based |
