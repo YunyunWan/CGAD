@@ -29,7 +29,13 @@ We provide the inj_cora dataset in the Dataset file, other datasets can be found
 |  ANEMONE  | 2021 |       ✔      |            |             ✔              |
 |   CONAD   | 2022 |       ✔      |      ✔     |                            |
 |  GRADATE  | 2023 |       ✔      |            |             ✔              |
-|   CGAD    | 2023 |       ✔      |            |             ✔              |
+
+- **SCAN** [^16] is specifically designed to identify clusters, hub nodes, and outliers within a given graph. Here the nodes that belong to identified clusters are considered anomalies. SCAN only uses the structure of the graph as input.
+
+...
+
+[^16]: Reference details (Author, Title, Journal/Conference, Year, etc.) for SCAN.
+
 
 
 
