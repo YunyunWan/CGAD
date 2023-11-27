@@ -1,6 +1,5 @@
 # CGAD
-This is a PyTorch implementation of the paper:
-CGAD: A Novel Contrastive Learning-Based Framework for Anomaly Detection in Attributed Networks.
+A PyTorch implementation of "CGAD: A Novel Contrastive Learning-Based Framework for Anomaly Detection in Attributed Networks".
 
 ## Requirements:
 ```
