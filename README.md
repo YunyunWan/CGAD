@@ -4,6 +4,7 @@ CGAD: A Novel Contrastive Learning-Based Framework for Anomaly Detection in Attr
 
 ## Requirements:
 ```
+torch == 1.12.1
 pygod == 0.3.1
 dgl == 0.4.1
 networkx == 2.6.3
