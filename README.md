@@ -17,8 +17,19 @@ python main.py
 | Books   | book   | frequent co-purchases | Prices, ratings, number of reviews, etc | tagged books   |
 | Disney  | movie  | frequent co-purchases | Prices, ratings, number of reviews, etc | marked movies  |
 
- 
+We provide the inj_cora dataset in the Dataset file, other datasets can be found here.
 
 ## Baselines
+| Algorithm | Year | Graph-based | Generative | Learning-based | Contrastive Learning-based |
+|:---------:|:----:|:------------:|:----------:|:---------------:|:--------------------------:|
+|   SCAN    | 2007 |       ✔      |            |                 |                            |
+|   MLPAE   | 2014 |              |      ✔     |                 |                            |
+| DOMINANT  | 2019 |       ✔      |      ✔     |                 |                            |
+|   CoLA    | 2021 |       ✔      |            |                 |             ✔              |
+|  ANEMONE  | 2021 |       ✔      |            |                 |             ✔              |
+|   CONAD   | 2022 |       ✔      |      ✔     |        ✔        |                            |
+|  GRADATE  | 2023 |       ✔      |            |                 |             ✔              |
+|   CGAD    | 2023 |       ✔      |            |                 |             ✔              |
+
 
 
