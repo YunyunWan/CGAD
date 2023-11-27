@@ -1,4 +1,7 @@
 # CGAD
+This is a PyTorch implementation of CGAD for the task of anomaly detection in a graph, as described in our paper:
+CGAD: A Novel Contrastive Learning-Based Framework for Anomaly Detection in Attributed Networks
+
 
 ## Requirements:
 ```
