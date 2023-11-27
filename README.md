@@ -6,8 +6,6 @@ pygod == 0.3.1
 dgl == 0.4.1
 networkx == 2.6.3
 ```
-## Run the demo
-python main.py
 
 ## Datasets
 | Dataset | Node   | Edge                   | Node features                        | Anomalies      |
@@ -30,7 +28,7 @@ We provide the inj_cora dataset in the Dataset file, other datasets can be found
 |   CONAD   | 2022 |       ✔      |      ✔     |             ✔              |
 |  GRADATE  | 2023 |       ✔      |            |             ✔              |
 
-- **SCAN** [^1] is specifically designed to identify clusters, hub nodes, and outliers within a given graph. Here the nodes that belong to identified clusters are considered anomalies. SCAN only uses the structure of the graph as input.
+- **SCAN** [^1] is specifically designed to identify clusters, hub nodes, and outliers within a given graph. Here the nodes that belong to identified clusters are considered anomalies. SCAN only uses the structure of the graph as input. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
 - **MLPAE**	[^2] encodes node attributes using a multiple-layer perceptron (MLP), reconstructs the attributes using another MLP, and identifies anomaly nodes based on the reconstruction errors. MLPAE only uses the attribute of the nodes.
 - **DOMINANT** [^3] takes both structure and attribute information as input, and employs GCN to reconstruct the structure and attribute separately. The reconstruction error is then used to identify anomalies.
 - **CoLA** [^4] measures node abnormality based on the agreement between each node and its neighboring subgraph with a GNN-based encoder model.
