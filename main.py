@@ -104,7 +104,8 @@ for args.lr in lrs:
 
             #average performance
             ave_results.append([auc, ap, recall])
-            final_metric = np.mean(ave_results,0)
+final_metric = np.mean(ave_results,0)
+print(final_metric)
             
             
 
