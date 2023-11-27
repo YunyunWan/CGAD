@@ -38,8 +38,6 @@ We provide the inj_cora dataset in the Dataset file, other datasets can be found
 - **CONAD** [^6] enhances the graph based on pre-existing human knowledge and subsequently optimizes the encoder using a contrastive loss function. It then reconstructs the original network to flag anomalies.
 - **GRADATE** [^7] adopts random edge modifications as an augmentation strategy and introduces subgraph-subgraph instance pairs into the GAD problem.
 
-...
-
 
 ## References:
 [^1]: X. Xu, N. Yuruk, Z. Feng, and T. A. Schweiger, "Scan: a structural clustering algorithm for networks," in Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining, 2007, pp. 824-833. 
