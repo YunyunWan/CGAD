@@ -32,9 +32,9 @@ We provide the inj_cora dataset in the Dataset file, other datasets can be found
 - **MLPAE**	[^2] encodes node attributes using a multiple-layer perceptron (MLP), reconstructs the attributes using another MLP, and identifies anomaly nodes based on the reconstruction errors. MLPAE only uses the attribute of the nodes. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
 - **DOMINANT** [^3] takes both structure and attribute information as input, and employs GCN to reconstruct the structure and attribute separately. The reconstruction error is then used to identify anomalies. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
 - **CoLA** [^4] measures node abnormality based on the agreement between each node and its neighboring subgraph with a GNN-based encoder model. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
-- **ANEMONE** [^5] measures node abnormality based on the agreement of multiple scale instance pairs (patch and context levels).  Source code: [https://github.com/GRAND-Lab/ANEMONE](https://github.com/GRAND-Lab/ANEMONE)]
+- **ANEMONE** [^5] measures node abnormality based on the agreement of multiple scale instance pairs (patch and context levels).  Source code: [https://github.com/GRAND-Lab/ANEMONE](https://github.com/GRAND-Lab/ANEMONE)
 - **CONAD** [^6] enhances the graph based on pre-existing human knowledge and subsequently optimizes the encoder using a contrastive loss function. It then reconstructs the original network to flag anomalies. Source code: [https://github.com/pygod-team/pygod](https://github.com/pygod-team/pygod)
-- **GRADATE** [^7] adopts random edge modifications as an augmentation strategy and introduces subgraph-subgraph instance pairs into the GAD problem. Source code: [https://github.com/FelixDJC/GRADATE]([https://github.com/pygod-team/pygod](https://github.com/FelixDJC/GRADATE))
+- **GRADATE** [^7] adopts random edge modifications as an augmentation strategy and introduces subgraph-subgraph instance pairs into the GAD problem. Source code: [https://github.com/FelixDJC/GRADATE]([https://github.com/pygod-team/pygod](https://github.com/FelixDJC/GRADATE)
 
 
 ## References:
