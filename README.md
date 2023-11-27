@@ -1,9 +1,3 @@
-<style>
-  .footnotes {
-    display: none;
-  }
-</style>
-
 # CGAD
 A PyTorch implementation of "CGAD: A Novel Contrastive Learning-Based Framework for Anomaly Detection in Attributed Networks".
 
