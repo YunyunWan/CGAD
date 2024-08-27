@@ -12,7 +12,7 @@ networkx == 2.6.3
 ## Datasets
 | Dataset | Node   | Edge                   | Node features                        | Anomalies      |
 |:-------:|:------:|:----------------------:|:------------------------------------:|:--------------:|
-| Cora    | paper  | citation relationship  | BoW vectors of paper                 | injected       |
+| Cora    | paper  | citation relationship  | BoW vectors of paper                 | injected anomalies |
 | Reddit  | user/subreddit | post relationship | Vector of post's text               | banned users   |
 | Books   | book   | frequent co-purchases | Prices, ratings, number of reviews, etc | tagged books   |
 | Disney  | movie  | frequent co-purchases | Prices, ratings, number of reviews, etc | marked movies  |
