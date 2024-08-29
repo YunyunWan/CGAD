@@ -1,4 +1,3 @@
-#os.chdir("D:/OneDrive - smail.swufe.edu.cn/代码/Algorithm/Garph Anomaly Detection/PyGod/Data")
 import numpy as np
 import pandas as pd
 import networkx as nx
