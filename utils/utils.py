@@ -14,7 +14,7 @@ from sklearn import metrics
 from sklearn.preprocessing import MinMaxScaler
 import random
 from collections import Counter
-from pygod.metrics import * 
+from pygod.metric import * 
 import re
 from torch_geometric.utils import remove_isolated_nodes
 
