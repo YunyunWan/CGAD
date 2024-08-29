@@ -9,7 +9,8 @@ import pandas as pd
 import numpy as np
 from collections import Counter
 import math
-from torch_geometric.utils import to_scipy_sparse_matrix 
+from torch_geometric.utils import to_scipy_sparse_matrix
+import scipy.sparse as sp
 import json
 import pickle
 from model import Model 
