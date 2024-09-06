@@ -47,5 +47,15 @@ Due to memory constraints, we have included the 'inj_cora' dataset in the design
 [^6]: Z. Xu, X. Huang, Y. Zhao, Y. Dong, and J. Li, "Contrastive attributed network anomaly detection with data augmentation," in Pacific-Asia Conference on Knowledge Discovery and Data Mining 2022, pp. 444-457. 
 [^7]: J. Duan et al., "Graph anomaly detection via multi-scale contrastive learning networks with augmented view," in Proceedings of the AAAI Conference on Artificial Intelligence, 2023, vol. 37, no. 6, pp. 7459-7467. 
 
+## Citing Our Work
 
-
+If you compare, build on, or use aspects of our framework, please cite the following paper:
+```
+@article{wan2024cgad,
+  title={CGAD: A Novel Contrastive Learning-Based Framework for Anomaly Detection in Attributed Networks},
+  author={Wan, Yun and Zhang, Dapeng and Liu, Dong and Xiao, Feng},
+  journal={Neurocomputing},
+  pages={128379},
+  year={2024},
+  publisher={Elsevier}
+}
